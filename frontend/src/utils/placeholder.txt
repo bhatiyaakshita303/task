@@ -1,0 +1,2 @@
+This folder is reserved for frontend helper utilities.
+Standard Date formatting and filter checking are placed inline within components to keep the code modular and self-contained.

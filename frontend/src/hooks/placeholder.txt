@@ -1,0 +1,2 @@
+This folder is reserved for custom React hooks.
+We used standard React hooks like useState, useEffect, and useContext directly in components to ensure the codebase remains highly readable and easy to explain.

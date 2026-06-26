@@ -1,0 +1,2 @@
+This folder is reserved for modular Board components.
+To keep the state management simple and easily explainability during your interview, the Board workspace and filters logic are consolidated directly inside the BoardDetail.jsx page.

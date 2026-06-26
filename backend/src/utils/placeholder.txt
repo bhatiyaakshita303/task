@@ -1,0 +1,2 @@
+This folder is reserved for backend utility functions (e.g. formatters, custom validators).
+To make the APIs highly understandable for your interview, helper checks like isValidObjectId are placed inline within the controllers.

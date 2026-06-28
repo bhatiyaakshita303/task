@@ -74,12 +74,12 @@ const updateCard = async (req, res) => {
     if (description !== undefined) card.description = description;
     if (priority !== undefined) card.priority = priority;
     if (status !== undefined) card.status = status;
-    
+
     if (listId !== undefined && listId !== card.listId.toString()) {
       if (!isValidObjectId(listId)) {
         return res.status(400).json({ message: 'Invalid destination List ID' });
       }
-      
+
       const oldListId = card.listId;
       card.listId = listId;
 

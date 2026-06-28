@@ -83,13 +83,7 @@ d:/mini-trello-clone/
    ```bash
    npm install
    ```
-3. Create a `.env` file (copied from `.env.example`):
-   ```
-   PORT=5000
-   MONGODB_URI=mongodb://127.0.0.1:27017/trello-clone
-   JWT_SECRET=super_secret_key_for_mini_trello_clone_auth
-   ```
-4. Start the backend in development mode (using nodemon):
+3. Start the backend in development mode (using nodemon):
    ```bash
    npm run dev
    ```

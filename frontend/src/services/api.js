@@ -5,7 +5,7 @@ const API = axios.create({
   baseURL: 'http://localhost:5000/api',
 });
 
-// Axios Request Interceptor: Automatically runs before every request is sent
+// Automatically runs before every request is sent
 API.interceptors.request.use(
   (config) => {
     // Retrieve the JWT token stored during login/registration

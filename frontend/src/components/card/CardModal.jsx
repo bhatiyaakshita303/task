@@ -9,7 +9,7 @@ const CardModal = ({ card, lists, onClose, onUpdateCard, onDeleteCard }) => {
   const [listId, setListId] = useState(card.listId);
   const [isDeleting, setIsDeleting] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e) => { 
     e.preventDefault();
     if (!title.trim()) return;
 
